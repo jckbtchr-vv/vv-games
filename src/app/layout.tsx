@@ -3,9 +3,9 @@ import './globals.css'
 import Navigation from '@/components/Navigation'
 
 export const metadata: Metadata = {
-  title: 'VV Games - Simple Mini Games',
-  description: 'Clean, minimal mini games for quick fun. Starting with a hyper-simple typing game.',
-  keywords: ['games', 'typing', 'mini-games', 'simple', 'clean', 'minimal'],
+  title: 'VV Games - Ultra-Minimal Typing Game',
+  description: 'Type great works of literature one word at a time. Pure focus, zero distractions.',
+  keywords: ['typing-game', 'literature', 'minimal', 'focus', 'clean-ui'],
 }
 
 export default function RootLayout({
