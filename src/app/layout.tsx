@@ -1,7 +1,6 @@
 import type { Metadata } from 'next'
 import './globals.css'
 import Navigation from '@/components/Navigation'
-import { AuthProvider } from '@/lib/auth'
 
 export const metadata: Metadata = {
   title: 'VV Games - Simple Mini Games',
@@ -17,12 +16,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="min-h-screen bg-white">
-        <AuthProvider>
-          <Navigation />
-          <div className="min-h-screen">
-            {children}
-          </div>
-        </AuthProvider>
+        <Navigation />
+        <div className="min-h-screen">
+          {children}
+        </div>
       </body>
     </html>
   )
