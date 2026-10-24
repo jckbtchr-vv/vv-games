@@ -75,7 +75,7 @@ export default function ScoresPage() {
                 <div className="text-gray-600 space-y-1">
                   <div>{highScores.personalBest.wordsCompleted} words completed</div>
                   <div>{formatDate(highScores.personalBest.date)}</div>
-                  <div className="text-sm italic">"{highScores.personalBest.textPreview}"</div>
+                  <div className="text-sm italic">&ldquo;{highScores.personalBest.textPreview}&rdquo;</div>
                 </div>
               </div>
             )}
@@ -123,7 +123,7 @@ export default function ScoresPage() {
                         </div>
                         <div className="text-sm text-gray-600">
                           <div>{score.wordsCompleted} words</div>
-                          <div className="italic">"{score.textPreview}"</div>
+                          <div className="italic">&ldquo;{score.textPreview}&rdquo;</div>
                         </div>
                       </div>
                       <div className="text-right text-sm text-gray-500">
